@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.calc{
+    width: 30%;
+    margin: 0 auto;
+    background-color:#b0b0b27c;
+text-align: center;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.screen{
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: right;
+}
+.calc-btns{
+    padding: 20px;
+    border: 2px solid red;
+    width: 100%;
+}
+.btn{
+    width: 15%;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 3px;
+  opacity: 50%;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+cursor: pointer;
+align-items: center;
+  
+}
+.btn:active{
+    background-color:burlywood;
+}
+
+
+.diff button{
+    padding:  10px 34px ;
+}
+.eqn{
+    padding:10px 70px !important;
+    background-color:black;
+    opacity: 10;
+    color: whitesmoke;
+    border-radius: 4px;
+    text-align: center;
+}
+@media screen and (max-width:460px) {
+    .calc{
+        width: 100%;
+        padding: 20px 40px;
+    }
+    
+}
